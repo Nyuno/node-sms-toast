@@ -10,6 +10,8 @@
 
 [토스트(Toast)](https://www.toast.com/)를 이용한 문자 메세지 전송 Client
 
+> 이 프로젝트의 첫 시작은 [카플랫](https://www.carplat.co.kr) 서비스의 문자 전송을 위해 제작되었습니다.
+
 
 ## 기능
 
