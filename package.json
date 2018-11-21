@@ -1,0 +1,40 @@
+{
+  "name": "sms-toast",
+  "version": "1.0.0",
+  "description": "SMS client for toast provider",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "coveralls": "yarn test:coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyuno/node-sms-toast.git"
+  },
+  "keywords": [
+    "node",
+    "sms",
+    "lms",
+    "mms",
+    "toast"
+  ],
+  "author": "nyuno <nyunohyuno@gmail.com> (https://github.com/nyuno)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nyuno/node-sms-toast/issues"
+  },
+  "homepage": "https://github.com/Nyuno/node-sms-toast#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^4.1.0"
+  }
+}
